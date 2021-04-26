@@ -5,21 +5,21 @@ VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "IntegrationServicesSamples", "IntegrationServicesSamples\IntegrationServicesSamples.dtproj", "{D543D197-6F2F-4CF0-9100-94197E31B974}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IntegrationServicesSamplesOutput", "IntegrationServicesSamplesOutput", "{830BE162-01CC-4D84-A5CB-E00557F0FF43}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DC0C2DB1-D90B-459C-980F-A411CBC96E5E}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\..\..\..\Temp\001-ExportToFlatFileOutput.csv = ..\..\..\..\..\Temp\001-ExportToFlatFileOutput.csv
-		..\..\..\..\..\Temp\002-CharacterMapTransformationOutput.csv = ..\..\..\..\..\Temp\002-CharacterMapTransformationOutput.csv
-		..\..\..\..\..\Temp\003-CopyColumnTransformationOutput.csv = ..\..\..\..\..\Temp\003-CopyColumnTransformationOutput.csv
-		..\..\..\..\..\Temp\004-DerivedColumnTransformationOutput.csv = ..\..\..\..\..\Temp\004-DerivedColumnTransformationOutput.csv
-		..\..\..\..\..\Temp\005-PercentageSamplingTransformation-SelectedOutput.xls = ..\..\..\..\..\Temp\005-PercentageSamplingTransformation-SelectedOutput.xls
-		..\..\..\..\..\Temp\006-RowSamplingTransformation.csv = ..\..\..\..\..\Temp\006-RowSamplingTransformation.csv
-		..\..\..\..\..\Temp\007-SortTransformationOutput.csv = ..\..\..\..\..\Temp\007-SortTransformationOutput.csv
-		..\..\..\..\..\Temp\008-UnionAllTransformation.csv = ..\..\..\..\..\Temp\008-UnionAllTransformation.csv
-		..\..\..\..\..\Temp\009-MulticastTransformationOutput1.csv = ..\..\..\..\..\Temp\009-MulticastTransformationOutput1.csv
-		..\..\..\..\..\Temp\009-MulticastTransformationOutput2.csv = ..\..\..\..\..\Temp\009-MulticastTransformationOutput2.csv
-		..\..\..\..\..\Temp\009-MulticastTransformationOutput3.xls = ..\..\..\..\..\Temp\009-MulticastTransformationOutput3.xls
-		..\..\..\..\..\Temp\010-ConditionalSplitTransformation.xls = ..\..\..\..\..\Temp\010-ConditionalSplitTransformation.xls
-		..\..\..\..\..\Temp\011-AggregateTransformationOutput.xls = ..\..\..\..\..\Temp\011-AggregateTransformationOutput.xls
+		Output\001-ExportToFlatFileOutput.csv = Output\001-ExportToFlatFileOutput.csv
+		Output\002-CharacterMapTransformationOutput.csv = Output\002-CharacterMapTransformationOutput.csv
+		Output\003-CopyColumnTransformationOutput.csv = Output\003-CopyColumnTransformationOutput.csv
+		Output\004-DerivedColumnTransformationOutput.csv = Output\004-DerivedColumnTransformationOutput.csv
+		Output\005-PercentageSamplingTransformation-SelectedOutput.xls = Output\005-PercentageSamplingTransformation-SelectedOutput.xls
+		Output\006-RowSamplingTransformation.csv = Output\006-RowSamplingTransformation.csv
+		Output\007-SortTransformationOutput.csv = Output\007-SortTransformationOutput.csv
+		Output\008-UnionAllTransformation.csv = Output\008-UnionAllTransformation.csv
+		Output\009-MulticastTransformationOutput1.csv = Output\009-MulticastTransformationOutput1.csv
+		Output\009-MulticastTransformationOutput2.csv = Output\009-MulticastTransformationOutput2.csv
+		Output\009-MulticastTransformationOutput3.xls = Output\009-MulticastTransformationOutput3.xls
+		Output\010-ConditionalSplitTransformation.xls = Output\010-ConditionalSplitTransformation.xls
+		Output\011-AggregateTransformationOutput.xls = Output\011-AggregateTransformationOutput.xls
 	EndProjectSection
 EndProject
 Global
