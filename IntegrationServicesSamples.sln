@@ -26,6 +26,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Output\014-ExportColumnTransformationOutput-Printer.txt = Output\014-ExportColumnTransformationOutput-Printer.txt
 		Output\014-ExportColumnTransformationOutput-Router.txt = Output\014-ExportColumnTransformationOutput-Router.txt
 		Output\014-ExportColumnTransformationOutput-Switch.txt = Output\014-ExportColumnTransformationOutput-Switch.txt
+		Output\016-MergeTransformationOutput.xls = Output\016-MergeTransformationOutput.xls
+		Output\017-MergeJoinTransformationOutput.xls = Output\017-MergeJoinTransformationOutput.xls
+		Output\018-LookupTransformationNoMatchOutput.xls = Output\018-LookupTransformationNoMatchOutput.xls
+		Output\018-LookupTransformationOutput.xls = Output\018-LookupTransformationOutput.xls
+		Output\Adam_Gilchrist.jpg = Output\Adam_Gilchrist.jpg
+		Output\FilesList.txt = Output\FilesList.txt
+		Output\Jonty_Rhodes.jpg = Output\Jonty_Rhodes.jpg
+		Output\Micchael_Bevan.jpg = Output\Micchael_Bevan.jpg
 	EndProjectSection
 EndProject
 Global
