@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="024-PivotTransformation"
   DTS:PackageType="5"
-  DTS:VersionBuild="3"
-  DTS:VersionGUID="{A8BA8737-FD86-41B6-9527-D2A885C436A2}">
+  DTS:VersionBuild="4"
+  DTS:VersionGUID="{B6A5F8DE-EEDF-4E64-84C7-45DC4A7D436B}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -772,35 +772,13 @@
           Id="Package\Data Flow Task\Flat File Source"
           TopLeft="380,99" />
         <NodeLayout
-          Size="102,42"
-          Id="Package\Data Flow Task\Pivot"
-          TopLeft="409,203" />
-        <EdgeLayout
-          Id="Package\Data Flow Task.Paths[Flat File Source Output]"
-          TopLeft="457.75,141">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,62"
-              Start="0,0"
-              End="0,54.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,54.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
           Size="172,42"
           Id="Package\Data Flow Task\Flat File Destination"
           TopLeft="414,323" />
+        <NodeLayout
+          Size="102,42"
+          Id="Package\Data Flow Task\Pivot"
+          TopLeft="409,203" />
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Pivot Default Output]"
           TopLeft="460,245">
@@ -835,6 +813,28 @@
             <mssgm:EdgeLabel
               BoundingBox="12,44,16,16"
               RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[Flat File Source Output]"
+          TopLeft="457.75,141">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,62"
+              Start="0,0"
+              End="0,54.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,54.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
