@@ -35,14 +35,34 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Output\023-OledbCommandTransformationOutput.csv = Output\023-OledbCommandTransformationOutput.csv
 		Output\024-PivotTransformationOutput.csv = Output\024-PivotTransformationOutput.csv
 		Output\Adam_Gilchrist.jpg = Output\Adam_Gilchrist.jpg
+		Output\DataProfilingTaskOutput.xml = Output\DataProfilingTaskOutput.xml
+		Output\EmployeesBulkInsertInput.csv = Output\EmployeesBulkInsertInput.csv
 		Output\FilesList.txt = Output\FilesList.txt
+		Output\FuzzyLookUpExampleInput.txt = Output\FuzzyLookUpExampleInput.txt
+		Output\Inventory.xml = Output\Inventory.xml
 		Output\Jonty_Rhodes.jpg = Output\Jonty_Rhodes.jpg
+		Output\m1.xml = Output\m1.xml
+		Output\m2.xml = Output\m2.xml
+		Output\m3.xml = Output\m3.xml
 		Output\Micchael_Bevan.jpg = Output\Micchael_Bevan.jpg
+		Output\NodeListOutputFirstNames.txt = Output\NodeListOutputFirstNames.txt
+		Output\PivotSource.txt = Output\PivotSource.txt
+		Output\SumOfBookPrices.txt = Output\SumOfBookPrices.txt
+		Output\TermExtractionSource.txt = Output\TermExtractionSource.txt
+		Output\UnpivotSource.txt = Output\UnpivotSource.txt
+		Output\ValuesOutput.txt = Output\ValuesOutput.txt
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQLScript", "SQLScript", "{5C504A9E-F41C-4BAA-B189-8BDEF4648991}"
 	ProjectSection(SolutionItems) = preProject
 		SQLScript\999-SqlScript-BusinessIntelligenceDB-TableData-01.sql = SQLScript\999-SqlScript-BusinessIntelligenceDB-TableData-01.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FileEnumerator", "FileEnumerator", "{ACD83E7E-5338-46B6-B5DC-89433C7BC968}"
+	ProjectSection(SolutionItems) = preProject
+		Output\FileEnumerator\One.txt = Output\FileEnumerator\One.txt
+		Output\FileEnumerator\Three.txt = Output\FileEnumerator\Three.txt
+		Output\FileEnumerator\Two.txt = Output\FileEnumerator\Two.txt
 	EndProjectSection
 EndProject
 Global
@@ -55,6 +75,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ACD83E7E-5338-46B6-B5DC-89433C7BC968} = {DC0C2DB1-D90B-459C-980F-A411CBC96E5E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {18B77E79-576D-4B85-B83F-8BCB4382B279}
