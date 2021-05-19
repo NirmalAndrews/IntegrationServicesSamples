@@ -5,21 +5,21 @@
   DTS:CreationName="Microsoft.Package"
   DTS:CreatorComputerName="LAPTOP-QI5P5C91"
   DTS:CreatorName="LAPTOP-QI5P5C91\nirma"
-  DTS:DTSID="{B5F715D4-F58D-44B8-8779-3C9FA41D4DCF}"
+  DTS:DTSID="{1D500BCD-AF57-4EE6-8990-B9A37192F7D1}"
   DTS:ExecutableType="Microsoft.Package"
   DTS:LastModifiedProductVersion="15.0.2000.166"
   DTS:LocaleID="1033"
   DTS:ObjectName="032-FileSystemTask"
   DTS:PackageType="5"
-  DTS:VersionBuild="2"
-  DTS:VersionGUID="{7CEC9C60-2DF5-443B-954F-1220F99BACB8}">
+  DTS:VersionBuild="3"
+  DTS:VersionGUID="{815C6D60-62A7-4EFD-8921-6D725123FB30}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:PackageParameters>
     <DTS:PackageParameter
       DTS:CreationName=""
       DTS:DataType="8"
-      DTS:DTSID="{E98FD646-446B-4A4C-BD13-DA7534595C5D}"
+      DTS:DTSID="{AA8AD10E-2F33-4843-95EA-022264CFEC72}"
       DTS:ObjectName="InputFolderPath">
       <DTS:Property
         DTS:DataType="8"
@@ -28,7 +28,7 @@
     <DTS:PackageParameter
       DTS:CreationName=""
       DTS:DataType="8"
-      DTS:DTSID="{12C78F1B-6B8E-4344-A493-BCE5DA0F9457}"
+      DTS:DTSID="{76C715A0-7A0A-4C7E-93D4-591B1AB4AB5E}"
       DTS:ObjectName="OutputFolderPath">
       <DTS:Property
         DTS:DataType="8"
@@ -41,7 +41,7 @@
       DTS:refId="Package\File System Task"
       DTS:CreationName="Microsoft.FileSystemTask"
       DTS:Description="File System Task"
-      DTS:DTSID="{41F9C564-44AF-44F6-9ECA-F0C8C491F9A2}"
+      DTS:DTSID="{A5D69E52-E176-4F07-9FA4-15077E333F38}"
       DTS:ExecutableType="Microsoft.FileSystemTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="File System Task"

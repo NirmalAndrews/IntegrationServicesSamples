@@ -1,0 +1,3 @@
+<?xml version="1.0"?>
+<DTSConfiguration><DTSConfigurationHeading>
+<DTSConfigurationFileInfo GeneratedBy="LAPTOP-QI5P5C91\nirma" GeneratedFromPackageName="043-ConfigurationFilesDemo" GeneratedFromPackageID="{06C2ECF8-89B5-4FC8-8534-074845A18CD1}" GeneratedDate="5/18/2021 10:09:43 PM"/></DTSConfigurationHeading><Configuration ConfiguredType="Property" Path="\Package.Variables[User::Color].Properties[Value]" ValueType="String"><ConfiguredValue>Black</ConfiguredValue></Configuration></DTSConfiguration>
