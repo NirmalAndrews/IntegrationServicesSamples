@@ -233,6 +233,36 @@
           <FullPath>043-ConfigurationFilesDemo.dtsx</FullPath>
           <References />
         </DtsPackage>
+        <DtsPackage FormatVersion="8">
+          <Name>044-ConfigurationTablesDemo.dtsx</Name>
+          <FullPath>044-ConfigurationTablesDemo.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
+          <Name>045-DynamicConnectionManager.dtsx</Name>
+          <FullPath>045-DynamicConnectionManager.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
+          <Name>046-DynamicTasks.dtsx</Name>
+          <FullPath>046-DynamicTasks.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
+          <Name>047-EventHandling-PrecendenceConstraints.dtsx</Name>
+          <FullPath>047-EventHandling-PrecendenceConstraints.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
+          <Name>048-EventHandling-EventHandlers.dtsx</Name>
+          <FullPath>048-EventHandling-EventHandlers.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
+          <Name>049-LogProviders-TextFiles.dtsx</Name>
+          <FullPath>049-LogProviders-TextFiles.dtsx</FullPath>
+          <References />
+        </DtsPackage>
       </DTSPackages>
     </Manifest>
   </DeploymentModelSpecificContent>
@@ -259,13 +289,7 @@
         <LinkedAzureSSISIR />
         <LinkedAzureStorage />
         <RemoteExecutionFolder />
-        <ParameterConfigurationValues>
-          <ConfigurationSetting>
-            <Id>LastModifiedTime</Id>
-            <Name>LastModifiedTime</Name>
-            <Value xsi:type="xsd:dateTime">2021-04-19T00:54:47.9855792Z</Value>
-          </ConfigurationSetting>
-        </ParameterConfigurationValues>
+        <ParameterConfigurationValues />
       </Options>
     </Configuration>
   </Configurations>
