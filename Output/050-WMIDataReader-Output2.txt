@@ -1,0 +1,5 @@
+Description, Local Fixed Disk
+DeviceID, C:
+FreeSpace, 352206524416
+Size, 510770802688
+SystemName, LAPTOP-QI5P5C91

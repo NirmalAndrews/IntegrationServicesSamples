@@ -7,12 +7,12 @@
   DTS:CreatorName="LAPTOP-QI5P5C91\nirma"
   DTS:DTSID="{89E9741F-D4A4-412A-8ECA-B2D8CB857FE8}"
   DTS:ExecutableType="Microsoft.Package"
-  DTS:LastModifiedProductVersion="15.0.2000.68"
+  DTS:LastModifiedProductVersion="15.0.2000.166"
   DTS:LocaleID="1033"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="4"
-  DTS:VersionGUID="{992836E3-E5B6-481E-9569-7E28FFF8BFC7}">
+  DTS:VersionBuild="5"
+  DTS:VersionGUID="{BB8F65B7-3488-4E61-866B-AFE678E121FF}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -28,31 +28,31 @@
               DTS:DataType="3"
               DTS:IndexPosition="1"
               DTS:ObjectName="ProductGroupID"
-              DTS:DTSID="{3DFD2942-1189-4140-A60D-F1B6EF64B383}"
+              DTS:DTSID="{217F524E-5EEF-4386-9195-652A6FC520E5}"
               DTS:CreationName="" />
             <DTS:CacheColumn
               DTS:DataType="3"
               DTS:IndexPosition="2"
               DTS:ObjectName="ProductID"
-              DTS:DTSID="{38148071-0F04-4FF7-93D3-151E330EDAA1}"
+              DTS:DTSID="{05C61BB4-D5D1-403C-B1B1-701C68984FB9}"
               DTS:CreationName="" />
             <DTS:CacheColumn
               DTS:DataType="129"
               DTS:Length="20"
               DTS:CodePage="1252"
               DTS:ObjectName="ProductName"
-              DTS:DTSID="{0EC49C26-A565-4033-9704-6EFAFE84E2E5}"
+              DTS:DTSID="{3B00D452-BF5D-4366-BA16-CF50F8ADD4F7}"
               DTS:CreationName="" />
             <DTS:CacheColumn
               DTS:DataType="131"
               DTS:Precision="18"
               DTS:ObjectName="ProductWeight"
-              DTS:DTSID="{5268793B-931A-47B5-B47A-306BAA4AAC93}"
+              DTS:DTSID="{F48C3609-2D51-4A2B-92C4-94FF8EE581CA}"
               DTS:CreationName="" />
             <DTS:CacheColumn
               DTS:DataType="6"
               DTS:ObjectName="ProductPrice"
-              DTS:DTSID="{FDFC9AD8-8BB6-4381-B594-EB2D998DC226}"
+              DTS:DTSID="{866894DE-9580-423A-A1DA-82D50A43936E}"
               DTS:CreationName="" />
           </DTS:CacheColumns>
         </DTS:ConnectionManager>
@@ -65,7 +65,9 @@
       DTS:ObjectName="Excel Connection Manager">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.16.0;Data Source=C:\Users\nirma\source\repos\IntegrationServicesSamples\Output\019-CacheTransformTransformationOutput.xls;Extended Properties=&quot;Excel 12.0 XML;HDR=YES&quot;;" />
+          DTS:ConnectRetryCount="0"
+          DTS:ConnectRetryInterval="0"
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.16.0;Data Source=C:\Users\nirma\source\repos\IntegrationServicesSamples\Output\019-CacheTransformTransformationOutput.xls;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -75,6 +77,8 @@
       DTS:ObjectName="LAPTOP-QI5P5C91\SQLDEV2019.BusinessIntelligenceDB">
       <DTS:ObjectData>
         <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
           DTS:ConnectionString="Data Source=LAPTOP-QI5P5C91\SQLDEV2019;Initial Catalog=BusinessIntelligenceDB;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -1277,12 +1281,25 @@ where [refTable].[ProductGroupID] = ? and [refTable].[ProductID] = ?</property>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
+    design-time-name="Package\Data Flow Task\Excel Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
     design-time-name="Package\Data Flow Task\Lookup">
     <Properties>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
@@ -1303,7 +1320,7 @@ where [refTable].[ProductGroupID] = ? and [refTable].[ProductID] = ?</property>
     design-time-name="Package\Loading LookUp table into Cache">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="150,42"
           Id="Package\Loading LookUp table into Cache\OLE DB Source"
@@ -1331,9 +1348,7 @@ where [refTable].[ProductGroupID] = ? and [refTable].[ProductID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -1341,19 +1356,6 @@ where [refTable].[ProductGroupID] = ? and [refTable].[ProductID] = ?</property>
   </TaskHost>
   <PipelineComponentMetadata
     design-time-name="Package\Loading LookUp table into Cache\OLE DB Source">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Task\Excel Destination">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>

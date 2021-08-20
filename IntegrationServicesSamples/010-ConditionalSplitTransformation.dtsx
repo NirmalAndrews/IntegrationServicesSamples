@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="3"
-  DTS:VersionGUID="{D55E3F27-AED5-417D-87C4-B40F5CEE2D10}">
+  DTS:VersionBuild="4"
+  DTS:VersionGUID="{8D6E617D-46F2-48FF-8B06-9CAB06952C2C}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -1128,42 +1128,6 @@
           Id="Package\Data Flow Task\Excel Destination 3"
           TopLeft="704,314" />
         <EdgeLayout
-          Id="Package\Data Flow Task.Paths[ExcellentOrders]"
-          TopLeft="550.6,196">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="237.9,118"
-              Start="0,0"
-              End="237.9,110.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,31.5383228133453" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,31.5383228133453"
-                    Point2="0,35.5383228133453"
-                    Point3="4,35.5383228133453" />
-                  <mssgle:LineSegment
-                    End="233.9,35.5383228133453" />
-                  <mssgle:CubicBezierSegment
-                    Point1="233.9,35.5383228133453"
-                    Point2="237.9,35.5383228133453"
-                    Point3="237.9,39.5383228133453" />
-                  <mssgle:LineSegment
-                    End="237.9,110.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="84.052421875,40.5383228133453,69.79515625,9.7490234375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
           Id="Package\Data Flow Task.Paths[AverageOrders]"
           TopLeft="491.8,196">
           <EdgeLayout.Curve>
@@ -1290,6 +1254,42 @@
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
               BoundingBox="2.10990234374998,58.2658588738418,54.0801953125,9.7490234375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[ExcellentOrders]"
+          TopLeft="550.6,196">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="237.9,118"
+              Start="0,0"
+              End="237.9,110.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,31.5383228133453" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,31.5383228133453"
+                    Point2="0,35.5383228133453"
+                    Point3="4,35.5383228133453" />
+                  <mssgle:LineSegment
+                    End="233.9,35.5383228133453" />
+                  <mssgle:CubicBezierSegment
+                    Point1="233.9,35.5383228133453"
+                    Point2="237.9,35.5383228133453"
+                    Point3="237.9,39.5383228133453" />
+                  <mssgle:LineSegment
+                    End="237.9,110.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="84.052421875,40.5383228133453,69.79515625,9.7490234375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>

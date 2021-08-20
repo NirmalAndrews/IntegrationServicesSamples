@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="049-LogProviders-TextFiles"
   DTS:PackageType="5"
-  DTS:VersionBuild="3"
-  DTS:VersionGUID="{7EAE5353-38B8-4DEC-A502-7BF4005256FB}">
+  DTS:VersionBuild="4"
+  DTS:VersionGUID="{20CA0E6A-C34B-4236-BC1B-ECCE14777122}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -58,6 +58,15 @@
       DTS:Description="Writes log entries for events to a CSV file"
       DTS:DTSID="{09C3AEC0-41A7-4115-8845-B8257498A26F}"
       DTS:ObjectName="SSIS log provider for Text files">
+      <DTS:ObjectData>
+        <InnerObject />
+      </DTS:ObjectData>
+    </DTS:LogProvider>
+    <DTS:LogProvider
+      DTS:CreationName="Microsoft.LogProviderEventLog"
+      DTS:Description="Writes log entries for events to the Event Log"
+      DTS:DTSID="{46213B4F-0349-481D-955C-C521AC2004E4}"
+      DTS:ObjectName="SSIS log provider for Windows Event Log">
       <DTS:ObjectData>
         <InnerObject />
       </DTS:ObjectData>

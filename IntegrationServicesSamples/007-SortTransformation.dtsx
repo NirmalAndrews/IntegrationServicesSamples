@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="1"
-  DTS:VersionGUID="{1B5B1893-9AF4-42F6-ACEA-011877CA0351}">
+  DTS:VersionBuild="2"
+  DTS:VersionGUID="{E24B10F0-1AE1-442B-A708-D8331852F9BC}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -168,7 +168,7 @@
                       cachedDataType="wstr"
                       cachedLength="50"
                       cachedName="Name"
-                      cachedSortKeyPosition="-3"
+                      cachedSortKeyPosition="3"
                       externalMetadataColumnId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Name]"
                       lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[Name]" />
                     <inputColumn
@@ -493,7 +493,7 @@
                         <property
                           dataType="System.Int32"
                           description="Specifies the sort order of the column."
-                          name="NewSortKeyPosition">-3</property>
+                          name="NewSortKeyPosition">3</property>
                       </properties>
                     </inputColumn>
                     <inputColumn
@@ -571,7 +571,7 @@
                       length="50"
                       lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[Name]"
                       name="Name"
-                      sortKeyPosition="-3">
+                      sortKeyPosition="3">
                       <properties>
                         <property
                           containsID="true"
@@ -640,13 +640,17 @@
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
+          Size="98,42"
+          Id="Package\Data Flow Task\Sort"
+          TopLeft="283,216" />
+        <NodeLayout
           Size="150,42"
           Id="Package\Data Flow Task\OLE DB Source"
           TopLeft="262,109" />
         <NodeLayout
-          Size="98,42"
-          Id="Package\Data Flow Task\Sort"
-          TopLeft="283,216" />
+          Size="172,42"
+          Id="Package\Data Flow Task\Flat File Destination"
+          TopLeft="269,350" />
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[OLE DB Source Output]"
           TopLeft="334.5,151">
@@ -669,10 +673,6 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="172,42"
-          Id="Package\Data Flow Task\Flat File Destination"
-          TopLeft="269,350" />
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Sort Output]"
           TopLeft="332,258">

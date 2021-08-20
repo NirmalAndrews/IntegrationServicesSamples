@@ -263,6 +263,21 @@
           <FullPath>049-LogProviders-TextFiles.dtsx</FullPath>
           <References />
         </DtsPackage>
+        <DtsPackage FormatVersion="8">
+          <Name>050-WMIDataReaderTask.dtsx</Name>
+          <FullPath>050-WMIDataReaderTask.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
+          <Name>Package1.dtsx</Name>
+          <FullPath>Package1.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
+          <Name>Package2.dtsx</Name>
+          <FullPath>Package2.dtsx</FullPath>
+          <References />
+        </DtsPackage>
       </DTSPackages>
     </Manifest>
   </DeploymentModelSpecificContent>
